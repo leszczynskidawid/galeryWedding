@@ -15,7 +15,7 @@ import {
   Keyboard,
   Autoplay,
 } from "swiper/modules";
-import "../../src/App.css";
+// import "../../src/App.css";
 
 import "swiper/css";
 import "swiper/css/navigation";

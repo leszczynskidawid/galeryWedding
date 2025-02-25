@@ -3,11 +3,7 @@ import { motion } from "framer-motion";
 
 const CardCompoonent = ({ path, image, title }) => {
   return (
-    <Box
-      sx={{
-        overflow: "hidden",
-      }}
-    >
+    <Box>
       <a href={path} style={{ textDecoration: "none" }}>
         <Card
           component={motion.div}
@@ -23,18 +19,20 @@ const CardCompoonent = ({ path, image, title }) => {
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
+            maxWidth: "100%",
 
             width: {
-              xs: "40vw", // na małych ekranach
-              sm: "50vw", // 600px+
-              md: "30vw", // 900px+
-              lg: "20vw", // 1200px+
+              xs: "90vw", // Na bardzo małych ekranach (mobilnych) karta zajmuje 90% szerokości
+              sm: "70vw", // Tablet
+              md: "50vw", // Małe laptopy
+              lg: "30vw", // Duże ekrany
+              xl: "25vw", // Jeszcze większe ekrany
             },
             height: {
               xs: "30vw", // proporcjonalna wysokość
               md: "20vw",
             },
-            minWidth: 350, // minimalna szerokość
+            minWidth: 280, // minimalna szerokość
             minHeight: 300, // minimalna wysokość
 
             borderRadius: "20px",
