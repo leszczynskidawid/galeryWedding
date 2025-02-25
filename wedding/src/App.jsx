@@ -23,7 +23,7 @@ import sesja_slubna from "../public/assets/zdjecia/sesja_slubna.png";
 import grupowe from "../public/assets/zdjecia/grupowe.png";
 import sesja_plener from "../public/assets/zdjecia/sesja_plener.png";
 import wesele from "../public/assets/zdjecia/wesele.png";
-import slub from "../public/assets/zdjecia/slider1.jpg";
+
 import backgraund_section from "../public/assets/zdjecia/backgraund_section.png";
 import SectionCard from "./Section/Section";
 import { ScrollContextProvider } from "./Context/ScrollContext";
