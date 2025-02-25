@@ -44,7 +44,10 @@ const Header = ({ scrollToCards }) => {
         }}
       >
         <IconButton>
-          <img src="../zdjecia/rings-removebg-preview.png" height={100} />
+          <img
+            src="src/assets//zdjecia/rings-removebg-preview.png"
+            height={100}
+          />
         </IconButton>
       </Toolbar>
       <Swiper
@@ -61,7 +64,7 @@ const Header = ({ scrollToCards }) => {
       >
         <SwiperSlide>
           <img
-            src="../zdjecia/Aleksandra_Dawid_1587.jpg"
+            src="src/assets//zdjecia/Aleksandra_Dawid_1587.jpg"
             alt="Slide 1"
             loading="lazy"
           />
@@ -70,14 +73,14 @@ const Header = ({ scrollToCards }) => {
         <SwiperSlide>
           <ParallaxHeader scrollToCards={scrollToCards} />
           <img
-            src="../zdjecia/Aleksandra_Dawid_349.jpg"
+            src="src/assets//zdjecia/Aleksandra_Dawid_349.jpg"
             alt="Slide 2"
             loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../zdjecia/Aleksandra_Dawid_768.jpg"
+            src="src/assets//zdjecia/Aleksandra_Dawid_768.jpg"
             alt="Slide 3"
             loading="lazy"
           />
