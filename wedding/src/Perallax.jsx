@@ -1,7 +1,9 @@
-import { Box, Typography, Button } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import ButtonMore from "./ButtonMore";
-import { useRef } from "react";
-const ParallaxHeader = ({ scrollToCards }) => {
+import { useScrollContext } from "./Context/ScrollContext";
+
+const ParallaxHeader = () => {
+  const { scrollToCards } = useScrollContext();
   return (
     <Box
       sx={{
@@ -17,7 +19,6 @@ const ParallaxHeader = ({ scrollToCards }) => {
         justifyContent: "space-between",
         flexDirection: "column",
         alignItems: "center",
-
         gap: 2,
       }}
     >
@@ -38,7 +39,6 @@ const ParallaxHeader = ({ scrollToCards }) => {
             color: "red",
             fontWeight: 400,
             fontSize: "25px",
-            // textShadow: "-2px -2px 0 white",
             fontFamily: "cursive",
           }}
         >

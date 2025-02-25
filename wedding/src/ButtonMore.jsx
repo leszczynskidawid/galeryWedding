@@ -8,7 +8,6 @@ const ButtonMore = ({ onCLick }) => {
       sx={{
         backgroundColor: "transparent",
         animation: "pulse 1.5s infinite ease-in-out",
-
         "@keyframes pulse": {
           "0%": { boxShadow: "0 0 10px rgba(255, 255, 255, 0.9)" },
           "50%": { boxShadow: "0 0 60px rgba(255, 255, 255, 1)" },

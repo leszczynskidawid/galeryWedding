@@ -10,9 +10,9 @@ const CardCompoonent = ({ path, image, title }) => {
           initial={{ scale: 0, y: 100 }}
           whileInView={{ scale: 1, y: 0 }}
           transition={{
-            type: "spring",
-            bounce: 0.4,
-            delay: 0.2,
+            type: "tween",
+            ease: "easeInOut",
+            duration: 0.8,
           }}
           sx={{
             display: "flex",

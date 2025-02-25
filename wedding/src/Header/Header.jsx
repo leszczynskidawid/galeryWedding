@@ -26,7 +26,13 @@ import Slider2 from "../../public/assets/zdjecia/slider2.jpg";
 import Slider3 from "../../public/assets/zdjecia/slider3.jpg";
 import rings from "../../public/assets/zdjecia/rings-removebg-preview.png";
 
-const Header = ({ scrollToCards }) => {
+const sliderImages = [
+  { image: Slider1, alt: "zdjęcie Dawida i Oli w kościele " },
+  { image: Slider2, alt: "zdjęcie dawida i Oli przed salą weselną " },
+  { image: Slider3, alt: "zdjęcia Dawida i Oli przytulonych do siebie" },
+];
+
+const Header = () => {
   return (
     <AppBar
       sx={{
@@ -63,18 +69,12 @@ const Header = ({ scrollToCards }) => {
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <img src={Slider1} alt="Slide 1" loading="lazy" />
-          <ParallaxHeader scrollToCards={scrollToCards} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ParallaxHeader scrollToCards={scrollToCards} />
-          <img src={Slider2} alt="Slide 2" loading="lazy" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Slider3} alt="Slide 3" loading="lazy" />
-          <ParallaxHeader scrollToCards={scrollToCards} />
-        </SwiperSlide>
+        {sliderImages.map((slide) => (
+          <SwiperSlide key={slide.image}>
+            <img src={slide.image} alt={slide.alt} loading="lazy" />
+            <ParallaxHeader />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </AppBar>
   );
