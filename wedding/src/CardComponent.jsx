@@ -42,16 +42,14 @@ const CardCompoonent = ({ path, image, title }) => {
             backgroundRepeat: "no-repeat",
             position: "relative",
             overflow: "hidden",
-            transition: "transform 0.3s ease",
+            transition: "transform 0.4s ease",
             "&:hover": {
-              transform: "scale(1.2)",
-              boxShadow: 9,
+              boxShadow: "0 0 25px rgba(255, 255, 255, 0.9)",
             },
             // Overlay dla lepszej czytelności treści
             "&::before": {
               content: '""',
               position: "absolute",
-
               top: 0,
               left: 0,
               right: 0,
@@ -67,14 +65,16 @@ const CardCompoonent = ({ path, image, title }) => {
             }}
           >
             <Typography
-              color="white"
               component="div"
+              variant="h3"
               sx={{
-                textShadow: "2px 2px 4px rgba(0,0,0,0.5)",
-                fontSize: "clamp(2.5rem, 3vw, 3rem)",
+                color: "#ffe0e0",
+                fontSize: { xs: "8vw", sm: "6vw", md: "5vw", lg: "2.8vw" },
+                textAlign: "center",
                 fontFamily: "serif",
                 fontStyle: "italic",
                 letterSpacing: "0.2rem",
+                maxWidth: "80%", // Zapobiega wychodzeniu tekstu poza kartę
               }}
             >
               {title}

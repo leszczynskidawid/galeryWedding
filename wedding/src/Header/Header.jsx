@@ -24,6 +24,7 @@ import ParallaxHeader from "../Perallax";
 import Slider1 from "../../public/assets/zdjecia/slider1.jpg";
 import Slider2 from "../../public/assets/zdjecia/slider2.jpg";
 import Slider3 from "../../public/assets/zdjecia/slider3.jpg";
+import rings from "../../public/assets/zdjecia/rings-removebg-preview.png";
 
 const Header = ({ scrollToCards }) => {
   return (
@@ -47,10 +48,7 @@ const Header = ({ scrollToCards }) => {
         }}
       >
         <IconButton>
-          <img
-            src="src/assets//zdjecia/rings-removebg-preview.png"
-            height={100}
-          />
+          <img src={rings} height={70} />
         </IconButton>
       </Toolbar>
       <Swiper
