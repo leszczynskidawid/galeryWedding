@@ -21,6 +21,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import ParallaxHeader from "../Perallax";
+import Slider1 from "../../public/assets/zdjecia/slider1.jpg";
+import Slider2 from "../../public/assets/zdjecia/slider2.jpg";
+import Slider3 from "../../public/assets/zdjecia/slider3.jpg";
 
 const Header = ({ scrollToCards }) => {
   return (
@@ -63,27 +66,15 @@ const Header = ({ scrollToCards }) => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img
-            src="/assets//zdjecia/Aleksandra_Dawid_1587.jpg"
-            alt="Slide 1"
-            loading="lazy"
-          />
+          <img src={Slider1} alt="Slide 1" loading="lazy" />
           <ParallaxHeader scrollToCards={scrollToCards} />
         </SwiperSlide>
         <SwiperSlide>
           <ParallaxHeader scrollToCards={scrollToCards} />
-          <img
-            src="/assets//zdjecia/Aleksandra_Dawid_349.jpg"
-            alt="Slide 2"
-            loading="lazy"
-          />
+          <img src={Slider2} alt="Slide 2" loading="lazy" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src="../assets//zdjecia/Aleksandra_Dawid_768.jpg"
-            alt="Slide 3"
-            loading="lazy"
-          />
+          <img src={Slider3} alt="Slide 3" loading="lazy" />
           <ParallaxHeader scrollToCards={scrollToCards} />
         </SwiperSlide>
       </Swiper>

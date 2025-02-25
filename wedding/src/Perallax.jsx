@@ -25,26 +25,24 @@ const ParallaxHeader = ({ scrollToCards }) => {
         <Typography
           variant="h2"
           sx={{
-            color: "white",
+            color: "rgba(255, 0, 0, 0.98)",
             overflow: "hidden",
-            fontWeight: 500,
+            fontWeight: 600,
             fontFamily: "'Petit Formal Script', cursive",
-            textShadow: "-2px -2px 0 black",
-            WebkitTextStroke: "1px black",
           }}
         >
           Dziękujemy, że byliście z nami w tym wyjątkowym dniu! 💕
         </Typography>
         <Typography
           sx={{
-            color: "black",
+            color: "red",
             fontWeight: 400,
             fontSize: "25px",
-            textShadow: "-2px -2px 0 white",
+            // textShadow: "-2px -2px 0 white",
             fontFamily: "cursive",
           }}
         >
-          Aleskandra i Dawid Leszczyńscy zapraszają do oglądania zdjęć
+          Aleskandra & Dawid
         </Typography>
       </Box>
 
