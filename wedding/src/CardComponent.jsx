@@ -69,12 +69,12 @@ const CardCompoonent = ({ path, image, title }) => {
             <Typography
               color="white"
               component="div"
-              variant="h3"
               sx={{
                 textShadow: "2px 2px 4px rgba(0,0,0,0.5)",
-                // fontWeight: "bold",
+                fontSize: "clamp(2.5rem, 3vw, 3rem)",
                 fontFamily: "serif",
                 fontStyle: "italic",
+                letterSpacing: "0.2rem",
               }}
             >
               {title}

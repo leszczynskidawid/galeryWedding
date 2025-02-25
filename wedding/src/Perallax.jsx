@@ -23,12 +23,12 @@ const ParallaxHeader = ({ scrollToCards }) => {
     >
       <Box>
         <Typography
-          variant="h2"
           sx={{
             color: "rgba(255, 0, 0, 0.98)",
             overflow: "hidden",
             fontWeight: 600,
             fontFamily: "'Petit Formal Script', cursive",
+            fontSize: "clamp(2.5rem, 3vw, 3rem)",
           }}
         >
           Dziękujemy, że byliście z nami w tym wyjątkowym dniu! 💕
