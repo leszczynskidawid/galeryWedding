@@ -64,7 +64,7 @@ const Header = ({ scrollToCards }) => {
       >
         <SwiperSlide>
           <img
-            src="src/assets//zdjecia/Aleksandra_Dawid_1587.jpg"
+            src="/assets//zdjecia/Aleksandra_Dawid_1587.jpg"
             alt="Slide 1"
             loading="lazy"
           />
@@ -73,14 +73,14 @@ const Header = ({ scrollToCards }) => {
         <SwiperSlide>
           <ParallaxHeader scrollToCards={scrollToCards} />
           <img
-            src="src/assets//zdjecia/Aleksandra_Dawid_349.jpg"
+            src="/assets//zdjecia/Aleksandra_Dawid_349.jpg"
             alt="Slide 2"
             loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="src/assets//zdjecia/Aleksandra_Dawid_768.jpg"
+            src="/assets//zdjecia/Aleksandra_Dawid_768.jpg"
             alt="Slide 3"
             loading="lazy"
           />
