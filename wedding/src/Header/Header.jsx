@@ -80,7 +80,7 @@ const Header = ({ scrollToCards }) => {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/assets//zdjecia/Aleksandra_Dawid_768.jpg"
+            src="../assets//zdjecia/Aleksandra_Dawid_768.jpg"
             alt="Slide 3"
             loading="lazy"
           />
