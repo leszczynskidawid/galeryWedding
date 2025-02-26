@@ -1,5 +1,5 @@
-import { Box, Card, Typography, Paper, CardContent, Link } from "@mui/material";
-import { motion, useInView } from "framer-motion";
+import { Box, Card, Typography, CardContent } from "@mui/material";
+import { motion } from "framer-motion";
 
 const CardCompoonent = ({ path, image, title }) => {
   return (

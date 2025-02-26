@@ -1,11 +1,12 @@
 import { Box, Grid2 } from "@mui/material";
 import CardCompoonent from "../CardComponent";
 import { cardData } from "../constant/cardData";
-import backgraund_section from "../../public/assets/zdjecia/backgraund_section.png";
+import backgraund_section from "../../public/assets/zdjecia/backgraund_section.webp";
 import { useScrollContext } from "../Context/ScrollContext";
 
 const SectionCard = () => {
   const { cardSectionRef } = useScrollContext();
+
   return (
     <Box
       ref={cardSectionRef}

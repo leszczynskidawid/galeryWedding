@@ -1,10 +1,10 @@
-import blogoslawienstwo from "../../public/assets/zdjecia/blogoslawienstwo.png";
-import przygotowania from "../../public/assets/zdjecia/przygotowania.png";
-import pierwszy_taniec from "../../public/assets/zdjecia/pierwszy_taniec.png";
-import sesja_slubna from "../../public/assets/zdjecia/sesja_slubna.png";
-import grupowe from "../../public/assets/zdjecia/grupowe.png";
-import sesja_plener from "../../public/assets/zdjecia/sesja_plener.png";
-import wesele from "../../public/assets/zdjecia/wesele.png";
+import blogoslawienstwo from "../../public/assets/zdjecia/blogoslawienstwo.webp";
+import przygotowania from "../../public/assets/zdjecia/przygotowania.webp";
+import pierwszy_taniec from "../../public/assets/zdjecia/pierwszy_taniec.webp";
+import sesja_slubna from "../../public/assets/zdjecia/sesja_slubna.webp";
+import grupowe from "../../public/assets/zdjecia/grupowe.webp";
+import sesja_plener from "../../public/assets/zdjecia/sesja_plener.webp";
+import wesele from "../../public/assets/zdjecia/wesele.webp";
 import slub from "../../public/assets/zdjecia/slider1.webp";
 export const cardData = [
   {
